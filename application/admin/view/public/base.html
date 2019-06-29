@@ -1,0 +1,23 @@
+<!--_meta 作为公共模版分离出去-->
+{include file="public/meta"/}
+<!--/meta 作为公共模版分离出去-->
+{block name="title"}
+这是title、keywords、description
+{/block}
+<!--_header 作为公共模版分离出去-->
+{include file="public/header"/}
+<!--/_header 作为公共模版分离出去-->
+
+<!--_menu 作为公共模版分离出去-->
+{include file="public/menu"/}
+<!--/_menu 作为公共模版分离出去-->
+{block name="content"}
+这是主题内容
+{/block}
+{include file="public/foot"/}
+{block name="javascript"}
+{/block}
+<!--_footer 作为公共模版分离出去-->
+{include file="public/footer"/}
+<!--/_footer /作为公共模版分离出去-->
+
